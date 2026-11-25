@@ -1,0 +1,282 @@
+{
+  "cora": {
+    "0": {
+      "epoch": 90,
+      "ae_sha256": "b39f84a443fea25c7d04b830cbcc1a1f922fd30cb3e28ecde4971f6cdd29c6b6"
+    },
+    "1": {
+      "epoch": 78,
+      "ae_sha256": "4356aaec46c9950e1700af80154e38380123465f843663fe2aa794191edad078"
+    },
+    "2": {
+      "epoch": 88,
+      "ae_sha256": "50eafedea6e02ad2708a8e68f2680159d8034d5cf7aa746b370ffd9909095b1d"
+    }
+  },
+  "acm": {
+    "0": {
+      "epoch": 85,
+      "ae_sha256": "7777c9be178d9e5a749f37e03bef50cc849db4cc179f37d3758acce271a75758"
+    },
+    "1": {
+      "epoch": 85,
+      "ae_sha256": "2d48c97131b16b8b63dd11765084d9a81bc3a2cd5700a750df294e48f6359e7c"
+    },
+    "2": {
+      "epoch": 81,
+      "ae_sha256": "da9d85e1384fbbbf7a595a265dc1e2730328ff10b0323b6ca42655a211b0dd7f"
+    }
+  },
+  "facebook": {
+    "0": {
+      "epoch": 294,
+      "ae_sha256": "0a3dc68a831eaebd6503bbaf06bfc5169c38479eabb341516acb2e5da79f7f97"
+    },
+    "1": {
+      "epoch": 293,
+      "ae_sha256": "817fb0ddbe07ce2ae27abe19f9109be4f1aa01ddda39deba30e1e155df86fc2d"
+    },
+    "2": {
+      "epoch": 294,
+      "ae_sha256": "6b95b81adf5905ee94041e44f0a51c62034e48736f64af1fa835529d0c9820a1"
+    }
+  },
+  "citeseer": {
+    "0": {
+      "epoch": 79,
+      "ae_sha256": "232bdd08f5c20207fa621752fe58739d6b5fb21fc36a973cfe7af9b7f5c41c32"
+    },
+    "1": {
+      "epoch": 154,
+      "ae_sha256": "c6526a44aeba4d0262493e429a7b85a493509ce37cd2ac508c8344521b28ff2a"
+    },
+    "2": {
+      "epoch": 74,
+      "ae_sha256": "df5bcf0e7734bce8b73e6598eb5ad63958527c6526a90d8990a0202283e771f2"
+    }
+  },
+  "pubmed": {
+    "0": {
+      "epoch": 79,
+      "ae_sha256": "f64fbf6505821b74735362a25e0e503b28660203bdf06062bca19060621d9d2c"
+    },
+    "1": {
+      "epoch": 75,
+      "ae_sha256": "54e1c9b0e1a6090faa60e4884be8eb810681114ef29218ae680059e41909bd84"
+    },
+    "2": {
+      "epoch": 88,
+      "ae_sha256": "90c4fede844fdd06611bceaacc7436de0f2bc61f2b96b8499aca6969b0f1401c"
+    }
+  },
+  "blogcatalog": {
+    "0": {
+      "epoch": 298,
+      "ae_sha256": "0cc6467f07bf49fc508c8aaf29b627df728bb252d4be9f5cb33f5875e029c679"
+    },
+    "1": {
+      "epoch": 76,
+      "ae_sha256": "84cd53d0885e3436daccbfbea264ce1e280e679592dfa99100880684f5152c1a"
+    },
+    "2": {
+      "epoch": 279,
+      "ae_sha256": "d10590b4e55cf205bd448180ac2347eda832f73d446733b821c8665936fdd440"
+    }
+  },
+  "flickr": {
+    "0": {
+      "epoch": 280,
+      "ae_sha256": "7ddd2406b015bdb303736d8ec66361f0bbc2bbe7ce90d15c570d01e6c0b83f15"
+    },
+    "1": {
+      "epoch": 258,
+      "ae_sha256": "5c43c383cea566d77ba03fa9fbd6908d85d0557f129f5e185ae05d5087f1091d"
+    },
+    "2": {
+      "epoch": 236,
+      "ae_sha256": "9093e2a346ff502592036a0c209a54a79e12b393707ed62bf74757a5bbf11d43"
+    }
+  },
+  "amazon": {
+    "0": {
+      "epoch": 239,
+      "ae_sha256": "ac732d2f5231315bfd12d359ffc7a231559c67ceaea41e5f1cc0c695933efe69"
+    },
+    "1": {
+      "epoch": 268,
+      "ae_sha256": "959b66b506b2ec96764827c4c016dfdf629d459f8d708761c272dcbcec24d197"
+    },
+    "2": {
+      "epoch": 243,
+      "ae_sha256": "940c786e2ea65e725e090891724281023067547df7a1056fb25dd00b6653b218"
+    }
+  },
+  "yelpchi": {
+    "0": {
+      "epoch": 139,
+      "ae_sha256": "d411a5698051d369235ca42ead30c50a63651b45c6ca0ce84f0c3827e3bdafaf"
+    },
+    "1": {
+      "epoch": 159,
+      "ae_sha256": "6aa43eea8feffc84aedfc1126df5273db7645d298d0111b2b5b3aa1fa85bf40a"
+    },
+    "2": {
+      "epoch": 154,
+      "ae_sha256": "5f2f0d7736c77ea61f5c7abe455fad5561ddad3a9734c694ddb19384c3331771"
+    }
+  },
+  "inj_cora": {
+    "0": {
+      "epoch": 81,
+      "ae_sha256": "cf69b65fd93d5420e2963c9b8cd3e77638627c53e297faa55e6ab555a7173e0f"
+    },
+    "1": {
+      "epoch": 82,
+      "ae_sha256": "b5be05257b7b9794f2c0552a919c483defefc90b9da1556e47eb9e254d4ffb98"
+    },
+    "2": {
+      "epoch": 82,
+      "ae_sha256": "7e362dcd84406016ff6948441eca32f13001c9ad69ac7d035a8f53f84e8cd764"
+    }
+  },
+  "inj_amazon": {
+    "0": {
+      "epoch": 91,
+      "ae_sha256": "f75e1068fb18f3347b8982236e3f1fcb09fdd92cf2469a25918fabd542344e68"
+    },
+    "1": {
+      "epoch": 127,
+      "ae_sha256": "5550e83b9e98724f0820756574c9c6f0e5a8192cc56656af46312f7bb6ed04b4"
+    },
+    "2": {
+      "epoch": 131,
+      "ae_sha256": "121b46e89ce850d5b03abf3d088d015cb9fb0af98895f95bff9867302b71bff0"
+    }
+  },
+  "inj_flickr": {
+    "0": {
+      "epoch": 93,
+      "ae_sha256": "8e2aea0618e10fb425a95281f8b8ddb92367984f3548973e46615016d8dd796c"
+    },
+    "1": {
+      "epoch": 93,
+      "ae_sha256": "b465e453f820573639a6610b53c28c3ccd9361090f3c747805cb896765d2969c"
+    },
+    "2": {
+      "epoch": 94,
+      "ae_sha256": "972d9ed6c7907e6b5b3718835b535cc2be9411e62b2e99f1015c0754d6ce4893"
+    }
+  },
+  "arc_cs": {
+    "0": {
+      "epoch": 75,
+      "ae_sha256": "33343cd762faeb8a564053a8705e51d89144a20a954ff1143d8b5d5a6cbcb4e0"
+    },
+    "1": {
+      "epoch": 90,
+      "ae_sha256": "a9e3e3da58e271cbe0a3ed312f9d57310128d048cf609001a39f4f17e2a7ed0d"
+    },
+    "2": {
+      "epoch": 84,
+      "ae_sha256": "c51511e65d3c049364f803d3023f95a3712eaaa4a26d027f8b53c953a3a73ace"
+    }
+  },
+  "arc_photo": {
+    "0": {
+      "epoch": 133,
+      "ae_sha256": "61608683d642b9f539dc495c761b65dc9f9c8d3ccb70bf5ab7a4a5330b524076"
+    },
+    "1": {
+      "epoch": 213,
+      "ae_sha256": "93e0f79c8fde5f2b471da169326e1e1a1863edc65e230cee40a77e1987b4406a"
+    },
+    "2": {
+      "epoch": 154,
+      "ae_sha256": "41eaccb245b4bf45000a03196aa357c375dfc36afcc163d07d86c341da5949c0"
+    }
+  },
+  "tolokers": {
+    "0": {
+      "epoch": 293,
+      "ae_sha256": "edf5e6265f0d10ce2bbe841eba99d88fbc9072bbf9e26f683c13e669ff2c816c"
+    },
+    "1": {
+      "epoch": 292,
+      "ae_sha256": "1d52aedf944b53eb5060c007ccb9e0992599c587b93cda02660736fe71c7f96d"
+    },
+    "2": {
+      "epoch": 288,
+      "ae_sha256": "d1c65362f3285dcfb366abd5c7fc099ec4722666f893f5e48b7c9ca1699398c8"
+    }
+  },
+  "questions": {
+    "0": {
+      "epoch": 72,
+      "ae_sha256": "9d199c793558b7e1b37a6f68e7f3ec9a8efa7ceb33e469f5820ec161389b7343"
+    },
+    "1": {
+      "epoch": 67,
+      "ae_sha256": "821d683b82a1b4a26f8911bd67a4010abf88eb763312464fbdae2a62960f99f8"
+    },
+    "2": {
+      "epoch": 75,
+      "ae_sha256": "2d0f3f033b32945a96eab33e20ab8a3f9b7fb4ff96bb394e6364812aa7983191"
+    }
+  },
+  "amazon_all": {
+    "0": {
+      "epoch": 296,
+      "ae_sha256": "8be2325847f80031e847d81bd1d32d8cbe3fde0d32f2f16ac548302db72f3a70"
+    },
+    "1": {
+      "epoch": 262,
+      "ae_sha256": "ed588dd9486995a40a88f45b4ad6dad38fa21c8efad1300f70b450e632d0cbe3"
+    },
+    "2": {
+      "epoch": 286,
+      "ae_sha256": "1cff7b3560e154e06a6cbc7b75e55938f576bb7f994b4060d9ce59c684a166b0"
+    }
+  },
+  "yelpchi_all": {
+    "0": {
+      "epoch": 290,
+      "ae_sha256": "a2349b41f990c4e1491e5f8be982f808b8806970ebabfe9bd34e4644a2dd0103"
+    },
+    "1": {
+      "epoch": 266,
+      "ae_sha256": "9d5026511250e01dc611789711c56f3b88661d30889a43745dc9530c7b2f91d2"
+    },
+    "2": {
+      "epoch": 140,
+      "ae_sha256": "9658c4824e1a6d88252d2f604783ec67ecff96241fc1ef9d115a36db51d50ef0"
+    }
+  },
+  "tfinance": {
+    "0": {
+      "epoch": 296,
+      "ae_sha256": "1c2f5d1dae7d549f81407ab2c5f82a2ef271ba859d19991ff947bc685df4c3f8"
+    },
+    "1": {
+      "epoch": 259,
+      "ae_sha256": "833f30c7be63d84d7ca72513f7d387b2474fa6c6f41f8f36af307189aab02c12"
+    },
+    "2": {
+      "epoch": 273,
+      "ae_sha256": "4ffe7853ee46e0214bcae5772c7880212285de071cc12ba44ef3933be1e83441"
+    }
+  },
+  "elliptic": {
+    "0": {
+      "epoch": 298,
+      "ae_sha256": "3f6f74616476ae33630400386d9b629f903a4d17b968010e03569aa06302dcb8"
+    },
+    "1": {
+      "epoch": 300,
+      "ae_sha256": "465bb014dd7e388a181f1def9d553680fe20dce31eb04a2564ad9f93a9f3f68c"
+    },
+    "2": {
+      "epoch": 282,
+      "ae_sha256": "a058758a072a954c0bba256de0490703f9edb51e5e36e075d15dcb698258c5c8"
+    }
+  }
+}

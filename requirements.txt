@@ -1,0 +1,10 @@
+# Install torch for the target CUDA runtime before installing these requirements.
+torch>=2.4
+torch-geometric>=2.4
+pygod>=1.1
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+PyYAML>=6
+tqdm>=4.60
+threadpoolctl>=3

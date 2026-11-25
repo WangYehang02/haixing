@@ -1,0 +1,507 @@
+{
+  "method": "FMGAD-stable native five-graph selector studies",
+  "grid_size_per_dataset": 168,
+  "search_seeds": [
+    10,
+    11,
+    12
+  ],
+  "evaluation_seeds": [
+    0,
+    1,
+    2,
+    3,
+    42
+  ],
+  "runtime": {
+    "flow_seed_offset": 0,
+    "conditional_seed_offset": 10000,
+    "inference_seed": 1729,
+    "residual_mode": "stable",
+    "residual_target": "full",
+    "residual_loss_weight": 1.0,
+    "polarity_mode": "geometry",
+    "peer_prototype_weight": 0.0
+  },
+  "training_grid": [
+    {
+      "ae_alpha": 0.2,
+      "hid_dim": null,
+      "ae_lr": 0.01,
+      "ae_dropout": 0.3
+    },
+    {
+      "ae_alpha": 0.2,
+      "hid_dim": 64,
+      "ae_lr": 0.01,
+      "ae_dropout": 0.3
+    },
+    {
+      "ae_alpha": 0.5,
+      "hid_dim": null,
+      "ae_lr": 0.01,
+      "ae_dropout": 0.3
+    },
+    {
+      "ae_alpha": 0.5,
+      "hid_dim": 64,
+      "ae_lr": 0.01,
+      "ae_dropout": 0.3
+    },
+    {
+      "ae_alpha": 0.8,
+      "hid_dim": null,
+      "ae_lr": 0.01,
+      "ae_dropout": 0.3
+    },
+    {
+      "ae_alpha": 0.8,
+      "hid_dim": 64,
+      "ae_lr": 0.01,
+      "ae_dropout": 0.3
+    }
+  ],
+  "inference_grid": [
+    {
+      "weight": 0.5,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 0.5,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 0.5,
+      "sample_steps": 1,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 0.5,
+      "sample_steps": 1,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 0.5,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 0.5,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 0.5,
+      "sample_steps": 5,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 0.5,
+      "sample_steps": 5,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 1,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 1,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 5,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.0,
+      "sample_steps": 5,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 1,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 1,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 5,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 1.5,
+      "sample_steps": 5,
+      "proto_alpha": 1.0,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 0.0,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 0.0,
+      "sample_steps": 1,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    },
+    {
+      "weight": 0.0,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.0
+    },
+    {
+      "weight": 0.0,
+      "sample_steps": 5,
+      "proto_alpha": 0.01,
+      "score_smoothing_alpha": 0.3
+    }
+  ],
+  "search_settings": {
+    "composite_q": {
+      "score_input": "after_smoothing_before_geometry",
+      "tail_fractions": [
+        0.01,
+        0.05,
+        0.1
+      ]
+    },
+    "final_csm": {
+      "score_input": "final_geometry_score",
+      "tail_fraction": 0.05,
+      "variance_ddof": 1
+    },
+    "raw_csm": {
+      "score_input": "after_smoothing_before_geometry",
+      "tail_fraction": 0.05,
+      "variance_ddof": 1
+    }
+  },
+  "shared_training_parameters": {
+    "ae_epochs": 300,
+    "diff_epochs": 800,
+    "patience": 100,
+    "lr": 0.005,
+    "wd": 0.0,
+    "residual_scale": 1.0,
+    "gate_bias": 2.0,
+    "gate_sharpness": 1.0,
+    "use_virtual_neighbors": true,
+    "virtual_degree_threshold": 5,
+    "virtual_k": 5,
+    "use_proto": true,
+    "use_score_smoothing": true,
+    "flow_t_sampling": "logit_normal",
+    "ensemble_score": false,
+    "num_trial": 1,
+    "verbose": false,
+    "polarity_enabled": false
+  },
+  "selected": {
+    "composite_q": {
+      "books": {
+        "config_id": "t05_i21",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "disney": {
+        "config_id": "t05_i26",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 0.0,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "enron": {
+        "config_id": "t03_i25",
+        "training_overrides": {
+          "ae_alpha": 0.5,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 0.0,
+          "sample_steps": 1,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "reddit": {
+        "config_id": "t04_i24",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 0.0,
+          "sample_steps": 1,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "weibo": {
+        "config_id": "t03_i25",
+        "training_overrides": {
+          "ae_alpha": 0.5,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 0.0,
+          "sample_steps": 1,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      }
+    },
+    "final_csm": {
+      "books": {
+        "config_id": "t05_i18",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "disney": {
+        "config_id": "t03_i05",
+        "training_overrides": {
+          "ae_alpha": 0.5,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 0.5,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "enron": {
+        "config_id": "t00_i17",
+        "training_overrides": {
+          "ae_alpha": 0.2,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "reddit": {
+        "config_id": "t04_i04",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 0.5,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "weibo": {
+        "config_id": "t00_i21",
+        "training_overrides": {
+          "ae_alpha": 0.2,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      }
+    },
+    "raw_csm": {
+      "books": {
+        "config_id": "t05_i18",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "disney": {
+        "config_id": "t05_i22",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "enron": {
+        "config_id": "t04_i16",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "reddit": {
+        "config_id": "t05_i23",
+        "training_overrides": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "weibo": {
+        "config_id": "t01_i22",
+        "training_overrides": {
+          "ae_alpha": 0.2,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3
+        },
+        "inference": {
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      }
+    }
+  }
+}

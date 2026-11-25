@@ -1,0 +1,362 @@
+{
+  "cora": {
+    "geometry_sha256": "56eefd06b91c70f0eb9b8f422f90b2419f2ebf76cd2c12056e3052f8e5e93057",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.03844022028615756,
+      "radial_share": 0.03915341307026227,
+      "n_comparable": 2707,
+      "graph_predictability": 0.6483191725157,
+      "mean_context_weight": 0.47374620104747256,
+      "comparable_fraction": 0.9996307237813885,
+      "varying_features": 1432
+    },
+    "archive_graph_sha256": "31f779a0f99ab5b343f7c5b103ae77404a0ca944c196672202031f35c6e78122",
+    "tensor_sha256": {
+      "x": "094d9f802c87b51ca3c062b76c45a0b87cca2ca406d56deb695d7d03f3a8f181",
+      "edge_index": "2fe68839cf984783d72427db67ae136b4191b62cf9c670e6f8fd8c787ab57cc8"
+    }
+  },
+  "acm": {
+    "geometry_sha256": "52f1e15fd7be45b332b966fc82a42ad0afdb420fb87ebb3f9db645a5fc99713b",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.015586045514171603,
+      "radial_share": 0.08346065829673215,
+      "n_comparable": 16466,
+      "graph_predictability": 0.6546823758046885,
+      "mean_context_weight": 0.5544238602941571,
+      "comparable_fraction": 0.9989080320310604,
+      "varying_features": 8335
+    },
+    "archive_graph_sha256": "d77f89df035ba9efdd2674f37ee250cbc1678a0f122b6220203b974ec0b6e9a7",
+    "tensor_sha256": {
+      "x": "67efce536d031d901f6cf334fc520694f36aad2b472a461bc34634d92d61b85a",
+      "edge_index": "a73f2bb4b1a2c81b19629d27ffbeda39ed410d6fc334c45978f449b843c9281b"
+    }
+  },
+  "facebook": {
+    "geometry_sha256": "9791a36950914da97b040f9b01c1836316537bb180bcc599e661968f8207f07c",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.06085806194501846,
+      "radial_share": 0.10116714145976947,
+      "n_comparable": 1080,
+      "graph_predictability": 0.662962962962963,
+      "mean_context_weight": 0.6236486116459107,
+      "comparable_fraction": 0.9990749306197965,
+      "varying_features": 576
+    },
+    "archive_graph_sha256": "d545493d1bcc9e4d1ecebf0567ba37f1c0d3bda577b0510b230594f461c92837",
+    "tensor_sha256": {
+      "x": "1dd84a6f3de8958a4f027d5b533e5d6e111d30321a80369b3e23c5acf7343ff9",
+      "edge_index": "aee84ad2ad5864794318a38ea7e27be3505710c1607c9cb0d5fe8cc0c3267d7c"
+    }
+  },
+  "citeseer": {
+    "geometry_sha256": "8c646d816f4918a5a79dd6c50e4584a06c0ff5857111adeaf8bd227d87a668d3",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.03492683940767406,
+      "radial_share": 0.015048742524565064,
+      "n_comparable": 3279,
+      "graph_predictability": 0.6989935956084172,
+      "mean_context_weight": 0.45237711543524145,
+      "comparable_fraction": 0.9855725879170424,
+      "varying_features": 3703
+    },
+    "archive_graph_sha256": "94f875890a2214e2223674c50b00b919995cd744747527e1e3e7562faa979910",
+    "tensor_sha256": {
+      "x": "4cb1461f9598e34592258e8ef765dd3f860bff39e635ef855dfec6c5e74ca6e8",
+      "edge_index": "c0be63e18032bb5f36f6055c40d926075a7b5c42ad7143c5cd8559a13840101a"
+    }
+  },
+  "pubmed": {
+    "geometry_sha256": "8926a289ae77cef7bc0ad0c215b47e9969327e5ce8d245b8d5d043c2e067a3fb",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.014243265751314384,
+      "radial_share": 0.07960253542165352,
+      "n_comparable": 19717,
+      "graph_predictability": 0.7373839833646092,
+      "mean_context_weight": 0.4903230993347365,
+      "comparable_fraction": 1.0,
+      "varying_features": 500
+    },
+    "archive_graph_sha256": "ee3c9bf427e99b33a5c3bdf3b328dbc67b9da8ef839b9b8c5267c73b49e49a62",
+    "tensor_sha256": {
+      "x": "4edf1f868b7cf1f0225dd3227d5a0200d790822b25cb386844123ff45298d64d",
+      "edge_index": "5308317413d187f7b93635bf267feed2fcc6c389661d8bed84ea27d01e2664e6"
+    }
+  },
+  "blogcatalog": {
+    "geometry_sha256": "d2a9f8490b0c30ed2e2389d05ae5d38be27fe1edcda40ca90e0bc30d6023c235",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.02774568328089315,
+      "radial_share": 0.3541267821487367,
+      "n_comparable": 5196,
+      "graph_predictability": 0.15396458814472672,
+      "mean_context_weight": 0.15040270926858337,
+      "comparable_fraction": 1.0,
+      "varying_features": 8189
+    },
+    "archive_graph_sha256": "685429b70e77f06623a3bab4e7d5c44554f3c26fd81181b0cd364f07b60dd3e9",
+    "tensor_sha256": {
+      "x": "3f27d0ed62477c456450d5dcd98622e2bd2e23e0b6153b49cf59b9ba6ecaaa32",
+      "edge_index": "b485ec356850e268bd2e72ab0bffeeedb6a744b8ebbbc708c11417c8acce74c4"
+    }
+  },
+  "flickr": {
+    "geometry_sha256": "4efe5d7c2a8481cde83471578c45aefbb4bd45afd505abd936bf0543add6503d",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.022979399584857042,
+      "radial_share": 0.37402609220355415,
+      "n_comparable": 7575,
+      "graph_predictability": 0.041056105610561056,
+      "mean_context_weight": 0.03857587468889459,
+      "comparable_fraction": 1.0,
+      "varying_features": 12045
+    },
+    "archive_graph_sha256": "eb7b2bff8bb3d5bf81345ac09936f1d704365a3b7aea05bc10d7af9425bbb009",
+    "tensor_sha256": {
+      "x": "8a73c53ffa9caefc400ef527da74837db30c4c72d70cc1a9441bf695755c1ecf",
+      "edge_index": "38bafab8070f386007f5559971ccb2bed88c5d1a005fbe43da6ff5ae524852ab"
+    }
+  },
+  "amazon": {
+    "geometry_sha256": "e0ad69483568afd82d7b6e6c755513b1a2685f377f422fe79a685a28f0571deb",
+    "geometry": {
+      "reference_type": "magnitude",
+      "predictability_cutoff": 0.01977969430323089,
+      "radial_share": 0.9709304931964119,
+      "n_comparable": 10224,
+      "graph_predictability": 0.18485915492957747,
+      "mean_context_weight": 0.154278861719085,
+      "comparable_fraction": 1.0,
+      "varying_features": 25
+    },
+    "archive_graph_sha256": "3b4266a590ad9812254cbeadc531859aaf3c39baf0beb1b60ebf082d409162c5",
+    "tensor_sha256": {
+      "x": "a118be7f9b53653ec6a26fe8b087374be8a30ed3acae7289bc98a1b195836ce4",
+      "edge_index": "6cd48060c8856e2668d3fd11b850653aa5aac4203a58e50eb04bad490ae29cca"
+    }
+  },
+  "yelpchi": {
+    "geometry_sha256": "73204ae8b7457ca824db5d421a23558df62b2221a08c74474094e7e6e721c5a3",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.012955639720303001,
+      "radial_share": 0.02302016554997343,
+      "n_comparable": 23831,
+      "graph_predictability": 0.6697578783936889,
+      "mean_context_weight": 0.4643703337962705,
+      "comparable_fraction": 1.0,
+      "varying_features": 32
+    },
+    "archive_graph_sha256": "e648077bfde8efa3fef33f10639641ce7f3e6dc7096b451265ed52c347a550e1",
+    "tensor_sha256": {
+      "x": "898431e904b5873bb3b978bf372316fcdf46415833a5a0b78d6e7deefd5d1c2a",
+      "edge_index": "188a1cbae865d3ed57bfaeae60f6b4c9677e3d7642d58b977c6baa8e8128439b"
+    }
+  },
+  "inj_cora": {
+    "geometry_sha256": "b1b21fadb4675f50bfd392cdab7a676951037a707edbbc194f376c7718a3d785",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.03844022028615756,
+      "radial_share": 0.11422137817871793,
+      "n_comparable": 2707,
+      "graph_predictability": 0.6313261913557444,
+      "mean_context_weight": 0.4603294787364592,
+      "comparable_fraction": 0.9996307237813885,
+      "varying_features": 1432
+    },
+    "archive_graph_sha256": "1812e24c5dd43f08c31b091c5d4a2520175ddb6177a63be50d1456744a20c2dc",
+    "tensor_sha256": {
+      "x": "54c0ead5f5583753378446cdf64ff4afa9b28185b4ed499c18335c4b11d63ea5",
+      "edge_index": "32c31cf57417cc1132913c380f25c8fbd154e5f926402a48ee3276242c898f3c"
+    }
+  },
+  "inj_amazon": {
+    "geometry_sha256": "a52f67ee2891e0409cfb9491e67a8a1f37f990020863067f23f067b8c35f2d0c",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.017228580422595965,
+      "radial_share": 0.2438162158871302,
+      "n_comparable": 13476,
+      "graph_predictability": 0.5825170673790442,
+      "mean_context_weight": 0.5267709602365931,
+      "comparable_fraction": 0.9799301919720768,
+      "varying_features": 767
+    },
+    "archive_graph_sha256": "5803028f3da020ff3f397ae4e905556be338659ae63d832bfbd6036d7a9e503f",
+    "tensor_sha256": {
+      "x": "de5966ac7628a7352d52da26889591abda5b988a2f853b18711500ef5eb11689",
+      "edge_index": "36e04eebc991036b4b4beb61fe0874ed2d9d8b7985786911349b35a8dda880ac"
+    }
+  },
+  "inj_flickr": {
+    "geometry_sha256": "4838f7a50af86b83b2a59db78c6d2fa9c9df5b8f3359b2f5a81ead8d7c89cdb4",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.006694694281046196,
+      "radial_share": 0.22531504768778987,
+      "n_comparable": 89248,
+      "graph_predictability": 0.09548673359627106,
+      "mean_context_weight": 0.08330142662989337,
+      "comparable_fraction": 0.9999775910364146,
+      "varying_features": 500
+    },
+    "archive_graph_sha256": "4912e787184db075c410db21974ee26b314283dd60a5091a4d10e0122c7436ab",
+    "tensor_sha256": {
+      "x": "855f7b3dba7c4bc8338105faf435d57d61ebea29a14d2b5c5ae726b840816be0",
+      "edge_index": "42b0b68158390392b9e1e73995126def1c7279cf641a7118033c19ec82bee02f"
+    }
+  },
+  "arc_cs": {
+    "geometry_sha256": "05a0c9640d14f3f2a1f9d2f08bfab3c73b584a6edd2040ef38b681aeb9c83474",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.014771516073325606,
+      "radial_share": 0.16876502270836438,
+      "n_comparable": 18332,
+      "graph_predictability": 0.9697250709142483,
+      "mean_context_weight": 0.8068782857406193,
+      "comparable_fraction": 0.999945453553701,
+      "varying_features": 6805
+    },
+    "archive_graph_sha256": "fb41273e7354ac55791bb220a425f76505becc4e4bea9dde0ec944295e6503fb",
+    "tensor_sha256": {
+      "x": "50a6f4d24724a717647657ec7e59993a8021a8b73ee726ad41e337feba41557f",
+      "edge_index": "a2afc2f7f4313f7df964b9dfb357016e08b1ddbc717d2c3423524ff1f0069f93"
+    }
+  },
+  "arc_photo": {
+    "geometry_sha256": "33d21c31393490d2e72a49447610c33107400ff06e61e71d53f549f2842b7f64",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.023037255449582746,
+      "radial_share": 0.2506440324945365,
+      "n_comparable": 7537,
+      "graph_predictability": 0.6446862146742736,
+      "mean_context_weight": 0.5847854410522558,
+      "comparable_fraction": 0.9852287581699346,
+      "varying_features": 745
+    },
+    "archive_graph_sha256": "91d3969cca2b97c89f85b77f5f2a55f106848005255424a09d2c3890c68063a9",
+    "tensor_sha256": {
+      "x": "329e491a54f030ee2e6929edaea7e8c92ef92f2a5325cf09979dcf34d14c0c13",
+      "edge_index": "9a45b60efa9011bb0e23082d8655fb8f9a1e204675dec7f948fa5d495a2524b9"
+    }
+  },
+  "tolokers": {
+    "geometry_sha256": "369f6fb3ad9d4b20302259e841b3b8502f92d91cb87a13456835d1fcdd404358",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.018444346302566583,
+      "radial_share": 0.016771330786082565,
+      "n_comparable": 11758,
+      "graph_predictability": 0.3619663208028576,
+      "mean_context_weight": 0.3327070061348783,
+      "comparable_fraction": 1.0,
+      "varying_features": 10
+    },
+    "archive_graph_sha256": "16056dc077886d9b1dff5764b7efbd1de2aa5e06af4017769f9f03ea8e61aa31",
+    "tensor_sha256": {
+      "x": "d70a2b3d04774f11e8d8e94f659b493c7cb86eae0c22bdfbecd2e36fc0577809",
+      "edge_index": "15f2325796519cb3ac1a9f9940b428c87a262cf262680b14be5bc72671733ce5"
+    }
+  },
+  "questions": {
+    "geometry_sha256": "f70dea230c54570497491937c146de48c9c4996e06dccd09a7d62c50d1959d6b",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.009042371227879537,
+      "radial_share": 0.19172970490794092,
+      "n_comparable": 48921,
+      "graph_predictability": 0.05823674904437767,
+      "mean_context_weight": 0.03712372450920314,
+      "comparable_fraction": 1.0,
+      "varying_features": 301
+    },
+    "archive_graph_sha256": "68f698839aab7f37cc12a3ad91f4bfee48cb601aed427cbce4c32600839d023f",
+    "tensor_sha256": {
+      "x": "510a05940aeb8d81ee7cbf9a55f4f32b61ed1c3e9d363c0561cd138a9a5675b8",
+      "edge_index": "bf8007a8f26ed6b85885c3c2a7e54c131873c7ca1a7256ca1faafc53afcd761b"
+    }
+  },
+  "amazon_all": {
+    "geometry_sha256": "b19d59dbdcd83d3847eb8a3203a218c4b65512279ab6478166c940a0df71131e",
+    "geometry": {
+      "reference_type": "magnitude",
+      "predictability_cutoff": 0.01830093504153427,
+      "radial_share": 0.9705813019827901,
+      "n_comparable": 11943,
+      "graph_predictability": 0.3725194674704848,
+      "mean_context_weight": 0.37054911135242474,
+      "comparable_fraction": 0.9999162759544541,
+      "varying_features": 25
+    },
+    "archive_graph_sha256": "116d596960f40d9c0de9de557555db747a52d21bedefdcdf9366bdac97a17334",
+    "tensor_sha256": {
+      "x": "063d12c2db83b93229574fff15c7c65c8b2f6e1a686f7c7e0212722c583742ad",
+      "edge_index": "03aa6f1b42bd08dfe9c53933904c6e2791f8e9f6bb7dda5011bd3a9f9c5271ea"
+    }
+  },
+  "yelpchi_all": {
+    "geometry_sha256": "08bd9309d4bfd0d066d7d478890ebd2f90320889df387b20f1387b95410db391",
+    "geometry": {
+      "reference_type": "angular",
+      "predictability_cutoff": 0.009331034035124187,
+      "radial_share": 0.02328288971082045,
+      "n_comparable": 45941,
+      "graph_predictability": 0.5311812977514638,
+      "mean_context_weight": 0.5244721208589578,
+      "comparable_fraction": 0.9997171084127606,
+      "varying_features": 32
+    },
+    "archive_graph_sha256": "7d2a0a84329d9db5c6ef720d3e74c05a3004f5c237030f8f888af05829d32cc1",
+    "tensor_sha256": {
+      "x": "ce18381aeaa346f2b4e91a93a60d78a3c080782fb25258d4ac3da1c3f0e8f07c",
+      "edge_index": "307f44f743ae392b2a5e6dee6769df0c54b9e166fd716f26887ec66b796b6f53"
+    }
+  },
+  "tfinance": {
+    "geometry_sha256": "b0bf7e162c6736f13e87cdd0dff2de9774749276a9abf94c60f0136f16bfedeb",
+    "geometry": {
+      "reference_type": "magnitude",
+      "predictability_cutoff": 0.01008135718720356,
+      "radial_share": 0.9843767934934401,
+      "n_comparable": 39357,
+      "graph_predictability": 0.7368193713951775,
+      "mean_context_weight": 0.7254606830672813,
+      "comparable_fraction": 1.0,
+      "varying_features": 10
+    },
+    "archive_graph_sha256": "c65069d2ebc7f0c0b8352d8d7150d23821fd7aae1f42c94e939c2b75545fbe94",
+    "tensor_sha256": {
+      "x": "b330e6183b8e7439fb2634b92fe14f9090089d20beed06b09ca48fdee9011c70",
+      "edge_index": "343ba8609a5f5dff343326aeed7463138a429b005cb8756aeb0b818aef4873a8"
+    }
+  },
+  "elliptic": {
+    "geometry_sha256": "87228def9ad6fe7ad2a186b6dc094fe0b85ffef5f7b50c7c7a160cef4616ebfb",
+    "geometry": {
+      "reference_type": "magnitude",
+      "predictability_cutoff": 0.0051909368535936855,
+      "radial_share": 0.5248209739014226,
+      "n_comparable": 148446,
+      "graph_predictability": 0.6304380043921696,
+      "mean_context_weight": 0.2441597509094691,
+      "comparable_fraction": 0.7285013912813039,
+      "varying_features": 166
+    },
+    "archive_graph_sha256": "da3a8e944c2754abdf284b22f1770ad22422534a0339ba7981de6554b6162d9e",
+    "tensor_sha256": {
+      "x": "f65ea21be385059ff67788203ea5146f4b5cbbdd24ecc6805def4f9d9200e9b3",
+      "edge_index": "39a870388813664f22cba44a175bf36e7500c0d007f80d42f043c312a96d4ef5"
+    }
+  }
+}

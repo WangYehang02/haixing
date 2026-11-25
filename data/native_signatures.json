@@ -1,0 +1,132 @@
+{
+  "books": {
+    "x": "f399dd93e34399e8eb03e949f0e8fc78c2dbf40fc2d3bafd438209bfbe646e9f",
+    "edge_index": "5be4427d3c050d55ea6a49e6cd721daba6368d7abd273e90cec8a96586f31931",
+    "encoders": {
+      "0": {
+        "sha256": "0a0aa77a42a92d706c47fbc025689c51f7dc42d609b5f19f2c6d887b6443a863",
+        "epoch": 299
+      },
+      "1": {
+        "sha256": "275194d7c9392b858b3c1c7536c5904394bb898783e629b0c09b1a8884807ffa",
+        "epoch": 298
+      },
+      "2": {
+        "sha256": "be325ef42a4d6c290ce44a6b1e4fae8c51fe0c19b8747260feeb0936a787814e",
+        "epoch": 300
+      },
+      "3": {
+        "sha256": "82ded06946dd4823de7643ea895fe77c11d86887deaf246c5b2bd1ec81e1c327",
+        "epoch": 300
+      },
+      "42": {
+        "sha256": "2ac3f3365b7cf2a84ce947bf955ce7601342afbb1933fb9694cc14ce7cb6187d",
+        "epoch": 300
+      }
+    }
+  },
+  "disney": {
+    "x": "e668763a6db80d39115a83d001d20ce44c852104dcd0e8dc7ee09a8e0d6467c2",
+    "edge_index": "c9b5f4dff5bb27e122fc868222ad7f9fb26b706f1513469e2d00802e4528c71b",
+    "encoders": {
+      "0": {
+        "sha256": "df7b9fb67c0a41f587fbf489a139aea18837e5b9c2e44980cc64fafd6b6e3f7d",
+        "epoch": 250
+      },
+      "1": {
+        "sha256": "5a3830255dd6193a40cb66fef7789080621e7cf202fc398fd0b26d4bed0bcb43",
+        "epoch": 275
+      },
+      "2": {
+        "sha256": "ab7875a2a0bd8027fa3f320623429b1e936637943ab43786819836b80347d953",
+        "epoch": 250
+      },
+      "3": {
+        "sha256": "92eb9a30eff7e8e3585a2b3d1eee1f32df200e7cb860177a7e493957ead10d2e",
+        "epoch": 232
+      },
+      "42": {
+        "sha256": "d789a93f442b3a129af6f91043ee0aca0defcb883d52bb1b58d375d0c9e83ee5",
+        "epoch": 258
+      }
+    }
+  },
+  "enron": {
+    "x": "bbeaf4cc54a9f8b0862861bd1d32daab226bd3997e207672a65289b58346bdfa",
+    "edge_index": "96a2b82e72c1db51b7ebef930e68a152256e695576cf7bcaf0c6a726ac7988a3",
+    "encoders": {
+      "0": {
+        "sha256": "0a1fa0df608f8d0f7c608e838527b8b48bcdfdeafe2e54a97bb4ac53703ee73d",
+        "epoch": 296
+      },
+      "1": {
+        "sha256": "d21f5c227123795f6cb33c50fde971841daccd67f6e49e5f03d995189120c13e",
+        "epoch": 297
+      },
+      "2": {
+        "sha256": "9c0c4ea55d70779e53a19392cfe9fb926a274f373f6f1c2905e51a5daf6da226",
+        "epoch": 299
+      },
+      "3": {
+        "sha256": "e2180d929722eaed5a21fd162adb5ac1b99f96d6272ebddc9672b11b851c6c5e",
+        "epoch": 299
+      },
+      "42": {
+        "sha256": "14888e2a6114b1130caa32339bbb1f724fca8c1ed5d494e4dc85ca4f811e5550",
+        "epoch": 300
+      }
+    }
+  },
+  "reddit": {
+    "x": "70fe89e2ae774ef2850cd409a406cba7113f653e5059ed60cb087973ad4a43cc",
+    "edge_index": "d3f47597a66d52bae9b0b69e37952bf623e3c7171b4f3f354640d4f82b5af8e9",
+    "encoders": {
+      "0": {
+        "sha256": "22f434bab05bf304474dbee9819876994856276e6490cc2315e8db43cf2f3136",
+        "epoch": 104
+      },
+      "1": {
+        "sha256": "90a3642625b4c11387e582d363b10ec12a80dad6eed3aab00d57f31269187a28",
+        "epoch": 95
+      },
+      "2": {
+        "sha256": "e5f1dea2eae1a6c213252631e46a75b09e9280101166ae891dad6a16f78986f0",
+        "epoch": 102
+      },
+      "3": {
+        "sha256": "76aaeb593bfad1d94bbea78fcb50b95e44d10332e75a49b205ddeb87b99d4aec",
+        "epoch": 83
+      },
+      "42": {
+        "sha256": "11137ce1748f9b369b9bb275b0a196694e7bc351a779981383f786b7d737b155",
+        "epoch": 97
+      }
+    }
+  },
+  "weibo": {
+    "x": "ea596cb6982c8cfcbab8a420fecf571dd258e22d4022007a2121a4b948afaa45",
+    "edge_index": "f9eb03fda8048178f259899721cd17d90b70ec3c42cc3f3aaa16cc0242872904",
+    "encoders": {
+      "0": {
+        "sha256": "063938adb703c1604d4bbd4eb0e909f8014cf59479d92f76fdc667cb3b40b1b2",
+        "epoch": 298
+      },
+      "1": {
+        "sha256": "b5857eab57d69a1cfedb03fa34349592e62eb52d7179f48b6d2b35d5d5facaa0",
+        "epoch": 296
+      },
+      "2": {
+        "sha256": "16d787feee575ebf32f6ba12371ffda15473dca2f48f27512c7a25dda8805eea",
+        "epoch": 283
+      },
+      "3": {
+        "sha256": "0a3394912013014b5c522a65ce4f3a3bb816f73ede5adc6a7aed6d01b2d32717",
+        "epoch": 296
+      },
+      "42": {
+        "sha256": "67f816af8096d547c94d4189ec482d053d454c745ef18244d9971897bb706512",
+        "epoch": 300
+      }
+    }
+  }
+}

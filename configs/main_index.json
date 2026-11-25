@@ -1,0 +1,162 @@
+{
+  "method": "FMGAD-stable",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    42
+  ],
+  "datasets": [
+    {
+      "dataset": "books",
+      "display_name": "Books",
+      "family": "native",
+      "config": "configs/main/books.json"
+    },
+    {
+      "dataset": "disney",
+      "display_name": "Disney",
+      "family": "native",
+      "config": "configs/main/disney.json"
+    },
+    {
+      "dataset": "enron",
+      "display_name": "Enron",
+      "family": "native",
+      "config": "configs/main/enron.json"
+    },
+    {
+      "dataset": "reddit",
+      "display_name": "Reddit",
+      "family": "native",
+      "config": "configs/main/reddit.json"
+    },
+    {
+      "dataset": "weibo",
+      "display_name": "Weibo",
+      "family": "native",
+      "config": "configs/main/weibo.json"
+    },
+    {
+      "dataset": "cora",
+      "display_name": "Cora",
+      "family": "external",
+      "config": "configs/main/cora.json"
+    },
+    {
+      "dataset": "acm",
+      "display_name": "ACM",
+      "family": "external",
+      "config": "configs/main/acm.json"
+    },
+    {
+      "dataset": "facebook",
+      "display_name": "Facebook",
+      "family": "external",
+      "config": "configs/main/facebook.json"
+    },
+    {
+      "dataset": "citeseer",
+      "display_name": "CiteSeer",
+      "family": "external",
+      "config": "configs/main/citeseer.json"
+    },
+    {
+      "dataset": "pubmed",
+      "display_name": "PubMed",
+      "family": "external",
+      "config": "configs/main/pubmed.json"
+    },
+    {
+      "dataset": "blogcatalog",
+      "display_name": "BlogCatalog",
+      "family": "external",
+      "config": "configs/main/blogcatalog.json"
+    },
+    {
+      "dataset": "flickr",
+      "display_name": "Flickr",
+      "family": "external",
+      "config": "configs/main/flickr.json"
+    },
+    {
+      "dataset": "amazon",
+      "display_name": "Amazon (extension)",
+      "family": "external",
+      "config": "configs/main/amazon.json"
+    },
+    {
+      "dataset": "yelpchi",
+      "display_name": "YelpChi-RUR",
+      "family": "external",
+      "config": "configs/main/yelpchi.json"
+    },
+    {
+      "dataset": "inj_cora",
+      "display_name": "BOND Cora",
+      "family": "external",
+      "config": "configs/main/inj_cora.json"
+    },
+    {
+      "dataset": "inj_amazon",
+      "display_name": "BOND Amazon",
+      "family": "external",
+      "config": "configs/main/inj_amazon.json"
+    },
+    {
+      "dataset": "inj_flickr",
+      "display_name": "BOND Flickr",
+      "family": "external",
+      "config": "configs/main/inj_flickr.json"
+    },
+    {
+      "dataset": "arc_cs",
+      "display_name": "ARC Coauthor CS",
+      "family": "external",
+      "config": "configs/main/arc_cs.json"
+    },
+    {
+      "dataset": "arc_photo",
+      "display_name": "ARC Amazon Photo",
+      "family": "external",
+      "config": "configs/main/arc_photo.json"
+    },
+    {
+      "dataset": "tolokers",
+      "display_name": "Tolokers",
+      "family": "external",
+      "config": "configs/main/tolokers.json"
+    },
+    {
+      "dataset": "questions",
+      "display_name": "Questions",
+      "family": "external",
+      "config": "configs/main/questions.json"
+    },
+    {
+      "dataset": "amazon_all",
+      "display_name": "Amazon (all relations)",
+      "family": "external",
+      "config": "configs/main/amazon_all.json"
+    },
+    {
+      "dataset": "yelpchi_all",
+      "display_name": "YelpChi (all relations)",
+      "family": "external",
+      "config": "configs/main/yelpchi_all.json"
+    },
+    {
+      "dataset": "tfinance",
+      "display_name": "T-Finance",
+      "family": "external",
+      "config": "configs/main/tfinance.json"
+    },
+    {
+      "dataset": "elliptic",
+      "display_name": "Elliptic",
+      "family": "external",
+      "config": "configs/main/elliptic.json"
+    }
+  ]
+}

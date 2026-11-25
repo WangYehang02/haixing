@@ -1,0 +1,82 @@
+{
+  "dataset": "inj_cora",
+  "display_name": "BOND Cora",
+  "family": "external",
+  "graph": {
+    "nodes": 2708,
+    "features": 1433,
+    "edge_entries": 11060,
+    "eligible": 2708,
+    "input_sha256": "60940f6014ef2510a3f4dc8d1a556688f0fea02e2d85525c85b1a13ae289a0ea",
+    "resolved_hidden_width": 64
+  },
+  "model": {
+    "name": "FMGAD",
+    "hid_dim": 64,
+    "ae_epochs": 300,
+    "diff_epochs": 800,
+    "patience": 100,
+    "lr": 0.005,
+    "wd": 0.0,
+    "weight": 1.0,
+    "sample_steps": 1,
+    "ae_dropout": 0.3,
+    "ae_lr": 0.01,
+    "ae_alpha": 0.8,
+    "use_proto": true,
+    "profile_efficiency": false,
+    "proto_alpha": 0.01,
+    "residual_scale": 1.0,
+    "gate_bias": 2.0,
+    "gate_sharpness": 1.0,
+    "verbose": false,
+    "use_virtual_neighbors": true,
+    "virtual_degree_threshold": 5,
+    "virtual_k": 5,
+    "use_score_smoothing": true,
+    "score_smoothing_alpha": 0.3,
+    "flow_t_sampling": "logit_normal",
+    "ensemble_score": false,
+    "num_trial": 1,
+    "exp_tag": null,
+    "polarity_enabled": false,
+    "polarity_consensus_threshold": 0.7,
+    "polarity_consensus_score_weight": 0.95,
+    "polarity_mode": "legacy",
+    "polarity_min_abs_correlation": 0.7
+  },
+  "inference": {
+    "weight": 0.5,
+    "sample_steps": 1,
+    "proto_alpha": 0.01,
+    "score_smoothing_alpha": 0.3
+  },
+  "runtime": {
+    "backend": "dense",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      42
+    ],
+    "flow_seed_offset": 0,
+    "conditional_seed_offset": 10000,
+    "inference_seed": 1729,
+    "residual_mode": "stable",
+    "residual_target": "full",
+    "residual_loss_weight": 1.0,
+    "polarity_mode": "geometry",
+    "peer_prototype_weight": 0.0
+  },
+  "selection": {
+    "method": "multi_ratio_csm_and_seed_stability",
+    "search_seeds": [
+      0,
+      1,
+      2
+    ],
+    "train_index": 5,
+    "inference_index": 1
+  }
+}

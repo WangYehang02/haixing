@@ -1,0 +1,80 @@
+{
+  "dataset": "weibo",
+  "display_name": "Weibo",
+  "family": "native",
+  "graph": {
+    "nodes": 8405,
+    "features": 400,
+    "edge_entries": 407963,
+    "eligible": 8405,
+    "input_sha256": "65a57315b9795b2a04a1842a2a513cbfe918edfc4329f36fb081da80322865a4",
+    "resolved_hidden_width": 128
+  },
+  "model": {
+    "name": "FMGAD",
+    "hid_dim": null,
+    "ae_epochs": 300,
+    "diff_epochs": 800,
+    "patience": 100,
+    "lr": 0.005,
+    "wd": 0.0,
+    "weight": 0.0,
+    "sample_steps": 1,
+    "ae_dropout": 0.1,
+    "ae_lr": 0.005,
+    "ae_alpha": 1.0,
+    "use_proto": true,
+    "profile_efficiency": false,
+    "proto_alpha": 0.001,
+    "residual_scale": 1.0,
+    "gate_bias": 2.0,
+    "gate_sharpness": 1.0,
+    "verbose": true,
+    "use_virtual_neighbors": true,
+    "virtual_degree_threshold": 5,
+    "virtual_k": 5,
+    "use_score_smoothing": true,
+    "score_smoothing_alpha": 0.45,
+    "flow_t_sampling": "uniform",
+    "ensemble_score": false,
+    "num_trial": 1,
+    "exp_tag": "fmgad_weibo",
+    "polarity_enabled": true,
+    "polarity_consensus_threshold": 0.7,
+    "polarity_consensus_score_weight": 0.95,
+    "proto_mode": "global",
+    "peer_prototype_weight": 0.0,
+    "peer_prototype_mode": "role",
+    "polarity_mode": "geometry",
+    "residual_mode": "stable",
+    "residual_target": "full",
+    "residual_loss_weight": 1.0
+  },
+  "inference": {
+    "weight": 0.0,
+    "sample_steps": 1,
+    "proto_alpha": 0.001,
+    "score_smoothing_alpha": 0.45
+  },
+  "runtime": {
+    "backend": "dense",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      42
+    ],
+    "flow_seed_offset": 0,
+    "conditional_seed_offset": 10000,
+    "inference_seed": 1729,
+    "residual_mode": "stable",
+    "residual_target": "full",
+    "residual_loss_weight": 1.0,
+    "polarity_mode": "geometry",
+    "peer_prototype_weight": 0.0
+  },
+  "selection": {
+    "method": "published_native_configuration"
+  }
+}

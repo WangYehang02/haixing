@@ -1,0 +1,202 @@
+{
+  "method": "AutoGAD Eq. (3), fixed 5% tail, mean over search seeds",
+  "scope": "native CSM experiment only",
+  "search_seeds": [
+    10,
+    11,
+    12
+  ],
+  "evaluation_seeds": [
+    0,
+    1,
+    2,
+    3,
+    42
+  ],
+  "choices": {
+    "final_csm": {
+      "books": {
+        "config": "t05_i18",
+        "train_index": 5,
+        "inference_index": 18,
+        "k": 70,
+        "mean_csm": 1.8573933842163555,
+        "eligible": 28,
+        "parameters": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "disney": {
+        "config": "t03_i05",
+        "train_index": 3,
+        "inference_index": 5,
+        "k": 6,
+        "mean_csm": 1.8365351612796406,
+        "eligible": 56,
+        "parameters": {
+          "ae_alpha": 0.5,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 0.5,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "enron": {
+        "config": "t00_i17",
+        "train_index": 0,
+        "inference_index": 17,
+        "k": 676,
+        "mean_csm": 1.8933132040353342,
+        "eligible": 168,
+        "parameters": {
+          "ae_alpha": 0.2,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "reddit": {
+        "config": "t04_i04",
+        "train_index": 4,
+        "inference_index": 4,
+        "k": 549,
+        "mean_csm": 2.0971932641305453,
+        "eligible": 168,
+        "parameters": {
+          "ae_alpha": 0.8,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 0.5,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "weibo": {
+        "config": "t00_i21",
+        "train_index": 0,
+        "inference_index": 21,
+        "k": 420,
+        "mean_csm": 2.19924107925463,
+        "eligible": 168,
+        "parameters": {
+          "ae_alpha": 0.2,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.3
+        }
+      }
+    },
+    "raw_csm": {
+      "books": {
+        "config": "t05_i18",
+        "train_index": 5,
+        "inference_index": 18,
+        "k": 70,
+        "mean_csm": 1.0335630111658898,
+        "eligible": 28,
+        "parameters": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "disney": {
+        "config": "t05_i22",
+        "train_index": 5,
+        "inference_index": 22,
+        "k": 6,
+        "mean_csm": 3.353813946924008,
+        "eligible": 56,
+        "parameters": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "enron": {
+        "config": "t04_i16",
+        "train_index": 4,
+        "inference_index": 16,
+        "k": 676,
+        "mean_csm": 2.462164201878427,
+        "eligible": 168,
+        "parameters": {
+          "ae_alpha": 0.8,
+          "hid_dim": null,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 1,
+          "proto_alpha": 0.01,
+          "score_smoothing_alpha": 0.0
+        }
+      },
+      "reddit": {
+        "config": "t05_i23",
+        "train_index": 5,
+        "inference_index": 23,
+        "k": 549,
+        "mean_csm": 2.389115931701358,
+        "eligible": 168,
+        "parameters": {
+          "ae_alpha": 0.8,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.3
+        }
+      },
+      "weibo": {
+        "config": "t01_i22",
+        "train_index": 1,
+        "inference_index": 22,
+        "k": 420,
+        "mean_csm": 2.7709191055372506,
+        "eligible": 168,
+        "parameters": {
+          "ae_alpha": 0.2,
+          "hid_dim": 64,
+          "ae_lr": 0.01,
+          "ae_dropout": 0.3,
+          "weight": 1.5,
+          "sample_steps": 5,
+          "proto_alpha": 1.0,
+          "score_smoothing_alpha": 0.0
+        }
+      }
+    }
+  }
+}
